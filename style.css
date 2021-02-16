@@ -208,7 +208,7 @@ footer{
     width: 15px;
     height: 16px;
     position: absolute;
-    background: url(./Icons/twitter.svg);
+    background: url(./icons/twitter.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +219,7 @@ footer{
     width: 15px;
     height: 16px;
     position: absolute;
-    background: url(./Icons/facebook.svg);
+    background: url(./icons/facebook.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
