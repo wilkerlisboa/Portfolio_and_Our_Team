@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Tag Responsive */
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+
+    /*Portfolio*/
+    #container {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        margin: 37px 0px 0px 0px;
+    }  
+
+    /*First title inside Portfolio*/
+    .First_Title {
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        font-size: 465%;
+        letter-spacing: 2px;
+        margin: 10px 0px 0px -57px;
+    }
+
+    /*Image's inside Portfolio*/
+    #img-01 {
+        width: 54%;
+        height: 100%;
+        margin: 46px 0px 0px 144px;
+        position: absolute;
+        background: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    #img-02 {
+        width: 54%;
+        height: 100%;
+        position: absolute;
+        margin: 543px 0px 0px 144px;
+        background: url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    #img-03 {
+        width: 54%;
+        height: 100%;
+        position: absolute;
+        margin: 1056px 0px 0px 144px;
+        background: url(https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    #img-04 {
+        width: 54%;
+        height: 100%;
+        position: absolute;
+        background: url(https://images.unsplash.com/photo-1558655146-d09347e92766?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 1563px 0px 0px 144px;
+        border-radius: 17px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    /*Our Team*/
+    footer{
+        width: 100%;
+        height: 397px;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        margin: 2198px 0px 0px 0px;
+    }
+
+    /*Second Title inside Our Team*/
+    .Second_Title{
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        font-size: 465%;
+        letter-spacing: 2px;
+        margin: 37px 0px 0px 0px;
+    } 
+
+    /*First box inside Our Team */
+    #First_box{
+        width: 54%;
+        height: 100%;
+        position: absolute;
+        background: blueviolet;
+        margin: 46px 0px 0px 144px;
+        border-radius: 22px 20px 0px 0px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    /*Image inside First box*/
+    .First_img{
+        width: 100%;
+        height: 71%;
+        background: url(https://images.unsplash.com/photo-1612831455740-a2f6212eeeb2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    /*Second box inside Our Team*/
+    #Second_box{
+        width: 54%;
+        height: 100%;
+        position: absolute;
+        background: blueviolet;
+        margin: 543px 0px 0px 144px;
+        border-radius: 22px 20px 0px 0px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    /*Image Inside Second Box*/
+    .Second_img{
+        width: 100%;
+        height: 71%;
+        background: url(https://images.unsplash.com/photo-1611593006970-1b8cd8a27873?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    /*Third Box Inside Our Team */
+    #Third_box{
+        width: 54%;
+        height: 100%;
+        position: absolute;
+        background: blueviolet;
+        margin: 1056px 0px 0px 144px;
+        border-radius: 22px 20px 0px 0px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    /*Image inside Third Box*/
+    .Third_img{
+        width: 100%;
+        height: 71%;
+        background: url(https://images.unsplash.com/photo-1612476929092-26a78fd1ea89?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    /*Fourth box Inside Our Team*/
+    #Fourth_box{
+        width: 54%;
+        height: 100%;
+        position: absolute;
+        background: blueviolet;
+        margin: 1563px 0px 0px 144px;
+        border-radius: 22px 20px 0px 0px;
+        box-shadow: 0px 38px 41px -29px #4c4a4a99;
+    }
+
+    .Fourth_img{
+        width: 100%;
+        height: 71%;
+        background: url(https://images.unsplash.com/photo-1610662361478-d2def3ffa83b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px 17px 0px 0px;
+    }
+    
+    /*Name's General Inside box's */
+    .Name {
+        position: absolute;
+        margin: 304px 0px 0px 22px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 153%;
+        letter-spacing: 2px;
+        font-style: normal;
+        color: white;
+    }
+
+    /*Proficient General Inside box's */
+    .Proficient {
+        position: absolute;
+        margin: 338px 0px 0px 23px;
+        font-family: 'Roboto';
+        font-size: 125%;
+        font-style: normal;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    /*Icons inside box's*/
+    .icon01 {
+        width: 9%;
+        height: 10%;
+        position: absolute;
+        background: url(../icons/twitter.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 310px 0px 0px 240px;
+    }
+
+    .icon02 {
+        width: 9%;
+        height: 10%;
+        position: absolute;
+        background: url(../icons/facebook.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 310px 0px 0px 306px;
+    }
+}
